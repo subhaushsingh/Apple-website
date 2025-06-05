@@ -121,8 +121,8 @@ canvas {
 
 /* Section heading */
 .section-heading {
-  color: #6b7280; /* Tailwind's gray-500 */
-  font-size: 1.875rem; /* Tailwind's lg:text-6xl */
+  color: #6b7280; 
+  font-size: 1.875rem; 
   font-weight: 500;
   opacity: 0;
   transform: translateY(5rem);
