@@ -31,6 +31,7 @@ canvas {
   margin-inline-end: auto;
   position: relative;
   max-width: 1120px;
+  
 }
 
 /* Replacing @apply with direct CSS properties */
@@ -56,6 +57,12 @@ canvas {
   margin-bottom: 1.25rem;
   border: 1px solid transparent;
   transition: background-color 0.3s, color 0.3s;
+}
+
+@media (max-width: 640px) {
+  .btn{
+    transform: translateY(15px);
+  }
 }
 
 .btn:hover {
@@ -169,6 +176,7 @@ canvas {
   opacity: 0;
   transform: translateY(5rem);
 }
+
 
 .link:hover {
   text-decoration: underline;

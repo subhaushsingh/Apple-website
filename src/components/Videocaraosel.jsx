@@ -149,8 +149,8 @@ const Videocaraosel = () => {
     <>
         <div className='flex items-center'>
             {hightlightsSlides.map((list,i)=>(
-                <div key={list.id} id='slider' className='sm:pr-20 pr-10'>
-                    <div className='video-carousel_container '>
+                <div key={list.id} id='slider' className='sm:pr-20 pr-10 '>
+                    <div className='video-carousel_container  '>
                         <div className='w-full h-full flex-center rounded-3xl overflow-hidden bg-black'>
                             <video id='video' muted preload='auto' className={`{list.id===2 && translate-x-44} pointer-events-none`} playsInline={true}
                             ref={(el) => (videoRef.current[i] = el)}
@@ -191,7 +191,7 @@ const Videocaraosel = () => {
                         </span>
                     ))}
                 </div>
-                <button className="control-btn">
+                <button className="ml-4 p-4 rounded-full bg-gray-800 backdrop-blur flex-center">
                     <img src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg}
             alt={isLastVideo ? 'replay' : !isPlaying? 'play' : 'pause' } 
                 onClick={isLastVideo ? ()=>handleProcess('video-reset'):
