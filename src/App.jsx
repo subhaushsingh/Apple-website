@@ -8,16 +8,16 @@ import Models from './components/Models'
 const App = () => {
   
 
-  return (
-    <>
-    <main className='bg-black'>
-      <Navbar />
-      <Hero />
+   return (
+     <>
+     <main className='bg-black'>
+       <Navbar />
+       <Hero />
       <Highlights />
-      <Models />
-    </main>
-    </>
-  )
+       <Models />
+     </main>
+     </>
+   )
 }
 
 export default App
