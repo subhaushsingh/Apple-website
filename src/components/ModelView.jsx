@@ -13,7 +13,7 @@ const ModelView = ({index, groupRef, gsapType, controlRef, setRotationState, ite
       className={` w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}
     >
       
-      <ambientLight intensity={0.3} />
+      <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 5]} intensity={1} />
       <pointLight position={[-10, -10, -10]} intensity={0.5} />
       
