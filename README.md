@@ -53,7 +53,7 @@ Clone the project and run it locally:
 git clone https://github.com/subhaushsingh/Apple-website.git
 cd Apple-website
 npm install
-npm run dev
+npm run dev```
 
 
 
