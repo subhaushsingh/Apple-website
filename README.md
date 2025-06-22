@@ -1,14 +1,15 @@
 # iPhone 15 Pro Web Experience ⚡
-
-A stunning, scroll-driven product website inspired by Apple’s iPhone 15 Pro launch page.  
+A stunning, scroll-driven product website inspired by Apple's iPhone 15 Pro launch page.  
 Built using modern frontend tools to deliver smooth animations, 3D visuals, and responsive layouts.
+
+## 📸 Preview
+![image alt](https://github.com/subhaushsingh/Apple-website/blob/ab4cdc6bea8605b958f8dbd314a3da5e8a602158/Hero.png)
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-black?style=for-the-badge&logo=vercel)](https://iphone15prowebdemo.vercel.app)
 
 ---
 
 ## 🛠️ Tech Stack
-
 - **React.js**
 - **Tailwind CSS**
 - **GSAP & ScrollTrigger**
@@ -17,13 +18,7 @@ Built using modern frontend tools to deliver smooth animations, 3D visuals, and 
 
 ---
 
-## 📸 Preview
-
-![image alt](https://github.com/subhaushsingh/Apple-website/blob/ab4cdc6bea8605b958f8dbd314a3da5e8a602158/Hero.png)
-
-
 ## 🔋 Features
-
 👉 **Beautiful, Subtle Animations with GSAP**  
 Smooth scroll-triggered animations that bring the interface to life and enhance user engagement.
 
@@ -44,25 +39,23 @@ Supercharged build and dev workflow using Vite for a lightning-fast development 
 
 ---
 
-
-##  Getting Started
-
+## 🚀 Getting Started
 Clone the project and run it locally:
 
 ```bash
 git clone https://github.com/subhaushsingh/Apple-website.git
 cd Apple-website
 npm install
-npm run dev```
+npm run dev
+```
 
-
+---
 
 ## 🙌 Acknowledgements
 Thanks to the JavaScript Mastery YouTube channel for the incredible tutorial.
 
+---
 
-#🗂️ Public Assets
+## 🗂️ Public Assets
 All images, videos, and other assets used in this project are stored here:  
 📁 [View Public Assets Folder on Google Drive](https://drive.google.com/file/d/1syHiNxSIGXVApaIozdrLXM2x5dPhvaJL/view)
-
----
